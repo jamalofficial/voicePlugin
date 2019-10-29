@@ -1,15 +1,10 @@
 # Instant Voice Plugin
 
-This plugin is to add the functionality of instant voice message to mattermost.
-<br/> 
-This plugin is for mattermost v5.12+.
-<br/> 
-To use this plugin you must be familiar with GOlang and React(+redux)
-<br/> 
-1. Clone the git to your local machine
-<br/>
-<code>git clone https://github.com/jamalofficial/voicePlugin.git</code>
-<br/> 
+This plugin is to add the functionality of instant voice message to mattermost.<br/> 
+This plugin is for mattermost v5.12+.<br/> 
+To use this plugin you must be familiar with GOlang and React(+redux)<br/>
+1. Clone the git to your local machine<br/>
+<code>git clone https://github.com/jamalofficial/voicePlugin.git</code><br/> 
 2. Get inside the "voicePlugin" directory
 <br/>
 <code>cd voicePlugin</code>
