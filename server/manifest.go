@@ -5,5 +5,5 @@ var manifest = struct {
 	Version string
 }{
 	ID:      "com.mattermost.instantvoice",
-	Version: "1.0.0",
+	Version: "1.1",
 }

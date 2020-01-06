@@ -104,8 +104,10 @@ MP3WASM_FULLNAME="mp3enc-wasm-${MP3WASM_VERSION}"
 mp3-wasm:
 	mkdir -p dist && \
 	mkdir -p public && \
-	cd public && \
-	tar xf ../assets/${MP3WASM_FULLNAME}.tar.gz 2> /dev/null && \
+	cd dist && \
+	curl -L -o "${MP3WASM_FULLNAME}.tar.gz" -C - "https://github.com/streamer45/mp3rec-wasm/releases/download/v${MP3WASM_VERSION}/${MP3WASM_FULLNAME}.tar.gz" 2> /dev/null && \
+	cd ../public && \
+	tar xf ../dist/${MP3WASM_FULLNAME}.tar.gz 2> /dev/null && \
 	mv ${MP3WASM_FULLNAME}/* . && \
 	mv recorder.js ../webapp/src/client/ && \
 	rm -rf ${MP3WASM_FULLNAME}
